@@ -133,6 +133,8 @@ for i in range(len(carList)):
         time.sleep(5)
         # recreate the carList, for some reason, it will break without this.
         # not sure why. will see if I can fix this later?
+	# update: found out why it fails without rebuilding. The element is no longer present in the DOM.
+	# needs to be rebuilt on iteration.
         timeElem = browser.find_element(By.CSS_SELECTOR, '#recent_last18Months')
         timeElem.click()
         time.sleep(5)

@@ -1,4 +1,4 @@
-The following script is a webscraper I built using Selenium.
+The following script is a webscraper I built using Python3 and Selenium.
 
 A used car dealership contracted me to build a scrapper which downloads all cars they buy from an auction. 
 The information they wanted was the VIN, odometer reading, year, make and model of the car, as well as any pictures related to the car. 
